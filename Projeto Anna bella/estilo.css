@@ -1,0 +1,42 @@
+#principal{
+	border: px solid red;
+	width: 900px;
+}
+
+#menu{
+	background: #c5c5b2;
+	padding: 18px;
+}
+
+#conteudo{
+	background: #e8e8d9;
+	font: Verdana, sans-serif;
+	padding: 10px ;
+}
+
+
+a{
+	color: #1E90FF;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 5px;
+}
+
+body{
+	background:#FFF8DC url(Imagens/fundo.png);
+	font: 16px bold 16px Verdana, sans-serif;
+}
+
+
+h1{
+	color: #BDB76B;
+	font-size: 1.3em;
+}
+
+.centralizar{
+	text-align: center;
+}
+
+.bordasFotos{
+	border: 10px outset #BDB76B;
+}
