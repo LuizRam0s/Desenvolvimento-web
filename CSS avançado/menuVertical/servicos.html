@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document serviços</title>
+
+    <style>
+        body{
+            background: #fefefe;
+        }
+
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        ul a{
+            background: #f7b600 url(../src/imagens/simples-teste/menu.png) no-repeat left bottom;
+            display: block;
+            width: 200px;
+            height: 40px;
+            line-height: 40px;
+            text-indent: 40px;
+            text-decoration: none;
+            color: black;
+        }
+
+        ul a:hover{
+            background-position: right bottom;
+            color: white;
+        }
+        
+        a:hover, .selecionado a{
+            background-position: right bottom;
+            background-color: #f99200;
+            color: #fff;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h2>Serviços</h2>
+    
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li class="selecionado"><a href="servicos.html">Serviços</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="noticias.html">Noticias</a></li>
+        <li><a href="contado.html">Contado</a></li>
+    </ul>
+</body>
+</html>

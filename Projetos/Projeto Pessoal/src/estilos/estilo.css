@@ -1,0 +1,82 @@
+#container{
+    width: 95%;
+    margin: 5px auto;
+    min-width: 620px;
+}
+
+#cabecalho{
+    padding: 3px;
+    align-items: center;
+    background-color: rgb(248, 245, 229);
+    height: 124px;
+}
+
+#menu{
+    border: 1px solid black;
+    width: 200px;
+    float: left;
+}
+
+#conteudo{
+    border: 1px solid black;
+    width: 74%;
+    height: 720px;
+    float: right;
+    text-align: center;
+    line-height: 720px; 
+}
+
+#conteudo-principal{
+    border: 1px solid black;
+    width: 57%;
+    float: left;
+}
+
+#conteudo-secundario{
+    border: 1px solid black;
+    width: 38%;
+    float: right;
+}
+
+#rodape{
+    clear: both;
+    border: 1px solid black;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+
+img.logo{
+    width: 15%;
+    height: 124px;
+}
+img.img-cabecalho{
+    width: 69%;
+    height: 124px;
+}
+
+#menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu ul a{
+    background: #1428dd url(../imagens/Captura\ de\ tela\ 2024-04-30\ 125617.png) no-repeat left bottom;
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    text-indent: 40px;
+    text-decoration: none;
+    color: black;
+}
+#menu ul a:hover{
+    background-position: right bottom;
+    color: white;
+}
+#menu a:hover, .selecionado a{
+    background-position: right bottom;
+    background-color: #f99200;
+    color: #fff;
+}

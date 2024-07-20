@@ -1,0 +1,37 @@
+#container{
+    width: 720px;
+    margin: 5px auto;
+}
+
+#cabecalho{
+    border: 1px solid black;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+
+#menu{
+    border: 1px solid black;
+    width: 220px;
+    height: 500px;
+    float: left;
+    text-align: center;
+    line-height: 500px;
+}
+
+#conteudo{
+    border: 1px solid black;
+    width: 480px;
+    height: 720px;
+    float: right;
+    text-align: center;
+    line-height: 720px; 
+}
+
+#rodape{
+    clear: both;
+    border: 1px solid black;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
